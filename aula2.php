@@ -8,7 +8,8 @@ $soma = 0;
 // constantes sao definidas inicialmente e nao pdem ser alteradas os seus valores
 
 define("cnome","Kosmo");
-
+define("ver",PHP_VERSION);
+define("dir",__DIR__);
 echo "nome: $vnome <br/>";
 $vnome = "campos";
 echo "Nome: $vnome <br>";
@@ -20,6 +21,13 @@ echo "soma $vsoma <br/>";
 echo "<hr/>";
 
 echo "conctatente cnome:".cnome."<br/>";
+echo "nome da constante".__FILE__."<br/>";
+echo "versao do php:".ver."<br/>";
+echo "pasta".dir."<br/>";
+echo "Versao SO".PHP_OS."<BR/>";
+
+//True e False sao constantes definidas no sistema
+echo "Numero da linha".__LINE__."<br/>";
 
 ?> 
 
