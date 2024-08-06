@@ -5,11 +5,22 @@ $vnum = 10;
 $vnum2 = 20.2;
 $soma = 0;
 
+// constantes sao definidas inicialmente e nao pdem ser alteradas os seus valores
+
+define("cnome","Kosmo");
+
 echo "nome: $vnome <br/>";
 $vnome = "campos";
 echo "Nome: $vnome <br>";
 $vnome ="Kosmo";
-echo "Nome: .$vnome. <br/>";
+echo "Nome:".$vnome."<br/>";
+$vsoma = 10 + 20;
+echo "soma $vsoma <br/>";
+
+echo "<hr/>";
+
+echo "conctatente cnome:".cnome."<br/>";
+
 ?> 
 
 <!DOCTYPE html>
