@@ -26,12 +26,19 @@
 $num2 *= 15 ;
 echo "O novo valor de num2 e $num2 <br/><hr/>";
 
+//OPeradores de comparacao
 
-
+$num1 == $num2;
+$num1 != $num2;
+$num1 <> $num2;
+$num1 > $num2;
+$num1 < $num2;
+$num1 >= $num2;
+$num <= $num2;
 
  // Operadores logicos
- //END &&
- //OR ||
+//  END &&;
+//  OR ||;
 
 
 
