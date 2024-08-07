@@ -3,6 +3,11 @@
 
 $vet = array(7);
 $vet2 = array("nome" => "Komso", "cidade" => "Maxixe", "curso" => "PHP");
+$matriz = array(
+    array("Carro1",65000),
+    array("Carro2",35000),
+    array("Carro3",50000)
+);
 
 $vet[0] = "Carro";
 $vet[1] = "Aviao";
@@ -11,6 +16,10 @@ $vet[3] = "Moto";
 $vet[4] = "Onibus";
 $vet[5] = 123456;
 $vet[6] = $vet2["nome"];
+
+echo "Carro A : " . $matriz[0][0] . " - Preco : " . $matriz[0][1]."<br/>";
+echo "Carro B : " . $matriz[1][0] . " - Preco : " . $matriz[1][1]."<br/>";
+echo "Carro C : " . $matriz[2][0] . " - Preco : " . $matriz[2][1]."<br/><hr/>";
 
 $i = 6;
 echo " O elemento do indice $i = " . $vet[$i] . "<br/><hr/>";
