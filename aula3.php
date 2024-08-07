@@ -4,17 +4,19 @@
  $num2 = 5;
 
  $res = $num1 + $num2;
-
- echo "A soma de $num1 e $num2 = $res <br/>";
+ echo "A soma de $num1 e $num2 = $res <br/><hr/>";
 
  $res = $num1 - $num2;
- echo "A subtracao de $num1 - $num2 = $res <br/>";
+ echo "A subtracao de $num1 - $num2 = $res <br/><hr/>";
+
  $res = $num1 / $num2;
- echo "A divisao de $num1 / $num2 = $res <br/>";
+ echo "A divisao de $num1 / $num2 = $res <br/><hr/>";
+
  $res = $num1 % $num2;
- echo "O resto da devisao de $num % $num2 = $res <br/>";
+ echo "O resto da devisao de $num1 % $num2 = $res <br/><hr/>";
+
  $res = $num1 * $num2;
- echo "A multiplicacao de $num1 * $num2 = $res <br/>"
+ echo "A multiplicacao de $num1 * $num2 = $res <br/><hr/>"
 
 
 
