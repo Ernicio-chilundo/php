@@ -16,7 +16,22 @@
  echo "O resto da devisao de $num1 % $num2 = $res <br/><hr/>";
 
  $res = $num1 * $num2;
- echo "A multiplicacao de $num1 * $num2 = $res <br/><hr/>"
+ echo "A multiplicacao de $num1 * $num2 = $res <br/><hr/>";
+
+ // Atribuido valores nas variaveis
+
+ $num1++; // $num1 += 1
+ echo "O novo valor de num1 e $num1 <br/><hr/>";
+
+$num2 *= 15 ;
+echo "O novo valor de num2 e $num2 <br/><hr/>";
+
+
+
+
+ // Operadores logicos
+ //END &&
+ //OR ||
 
 
 
