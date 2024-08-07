@@ -5,10 +5,10 @@
 
  $res = $num1 + $num2;
 
- echo "a soma de $num1 e $num2 e igual a $res <br/>";
+ echo "a soma de $num1 e $num2 = $res <br/>";
 
  $res = $num1 - $num2;
- echo "A subtracao de res e  igual a $res"
+ echo "A subtracao de $num1 - $num2 = $res"
 
 
 
