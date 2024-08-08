@@ -14,7 +14,7 @@ echo "<br/><hr/><br/>";
 
 $i = 0;
 while($i < $tam){
-    $vet[$i] = $i;
+    $vet[$i] = "Ernicio";
     $i ++;
 }
 
