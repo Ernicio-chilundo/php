@@ -1,6 +1,6 @@
 <?php 
-$i = 8;
-$tam = 5;
+$i = 4;
+$tam = 3;
 
 echo "Loop do while<br/>";
 
@@ -10,7 +10,18 @@ do{
     $i++;
 }while($i < $tam);
 
-echo "<hr/>";
+echo "<br/><hr/><br/>";
+
+echo "Loop while <br/><br/>";
+
+
+$i = 4;
+$tam = 3;
+while($i < $tam){
+    echo "Variavel i e : $i <br/>";
+    echo "variavel tam e : $tam";
+    $i ++;
+}
 
 
 ?>
