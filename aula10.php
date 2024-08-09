@@ -11,11 +11,13 @@ foreach($transport as $one){
 echo "<hr/>";
 
 foreach($transport as $one){
-    if($one == "Navio")
-    echo " Navio esta na lista da variavel one<br/>";
+    if($one == "Navio"){
+        echo " Navio esta na lista da variavel one<br/>";
+        break;
+    }
 
-    if($one == "Carro")
-    echo "Carro esta na lista da variavel one <br/>";
+    // if($one == "Carro")
+    // echo "Carro esta na lista da variavel one <br/>";
 }
 ?>
 
