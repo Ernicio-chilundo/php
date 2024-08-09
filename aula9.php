@@ -9,7 +9,7 @@ for($i=0; $i < $tam ; $i++){
 
 
 echo "<br/>";
-for($i=0; $i < 40; $i++){
+for($i=0; $i < 240; $i++){
     echo "-";
 }
 echo "<br/><br/>";
