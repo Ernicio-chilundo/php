@@ -1,9 +1,21 @@
 <?php
-$transport= array("Carro","Moto","Bicicleta","navio","Onibus","Aviao");
+$transport= array("Carro","Moto","Bicicleta","Navio","Onibus","Aviao");
 foreach($transport as $one){
     echo "$one <br/>";
-    if($one == "Bicicleta")
-    break;
+    // if($one == "Bicicleta")
+    // break;
+
+    
+}
+
+echo "<hr/>";
+
+foreach($transport as $one){
+    if($one == "Navio")
+    echo " Navio esta na lista da variavel one<br/>";
+
+    if($one == "Carro")
+    echo "Carro esta na lista da variavel one <br/>";
 }
 ?>
 
