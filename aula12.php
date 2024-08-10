@@ -1,5 +1,13 @@
 <?php
+function aula(){
+    echo "<hr/>Ola mundo<br/><br/>";
+    echo "Aula sobre funcoes<hr/>";
+}
 
+aula();
+aula();
+aula();
+aula();
 ?>
 
 <!DOCTYPE html>
