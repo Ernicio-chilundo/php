@@ -13,13 +13,40 @@ while ($i < $tam){
 }
 
 echo "<br/><hr/><br/>";
-
+echo"loop for";
 for($i=0; $i < $tam ; $i++){
+    
+    if($lista[$i] == "chega"){
+        
+        break;
+    }
     echo "$lista[$i]<br/>";
-
-    if($lista[$i] == "chega")
-    break;
 }
+
+echo "<br/><hr/><br/>";
+echo "loop foreach";
+
+foreach($lista as $mesa){
+    if($mesa == "chega"){
+
+        break;
+    }
+    echo "$mesa<br/>";
+}
+
+echo "<br/><hr/><br/>";
+
+$i = 0;
+echo "loop do while";
+
+do{
+echo"$lista[$i]<br/>";
+$i++;
+
+if($lista[$i] == "chega")
+break;
+}while($i < $tam)
+
 ?>
 
 <!DOCTYPE html>
