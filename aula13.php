@@ -1,15 +1,7 @@
 <?php
+    $vnome = $_GET["f_nome"];
 
+    $vsenha =  $_GET["f_senha"];
+
+    echo "Nome: ".$vnome."<br/>Senha: ".$vsenha."<br/>";
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 13 php - </title>
-</head>
-<body>
-    
-</body>
-</html>
