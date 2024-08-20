@@ -9,7 +9,7 @@
     $segundos = date('s');
 
     echo $hora.":".$minuto.":".$segundos."<br/>";
-    echo $dia."de".$meses[$mes-1]."de".$ano;
+    echo $dia." de ".$meses[$mes-1]." de ".$ano;
 ?>
 
 <!DOCTYPE html>

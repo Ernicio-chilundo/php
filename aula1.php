@@ -3,7 +3,7 @@
 $dados = [
     ["Clara", "F", "Arcadia"],
     ["Ernicio", "M", "Mocambique"],
-    ["Gretta", "F", "Angola"],
+    ["Tsukemoto", "M", "Angola"],
     ["Jim", "M", "America"],
 ];
 
