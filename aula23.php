@@ -20,46 +20,44 @@ abstract class CarroBase implements CarroPadrao, CarroGuerra
     public $velMax;
     private $ligado = false;
 
-    function liga()
-    {
+    function liga(){
         $this->ligado = true;
     }
 
-    function desliga()
-    {
+    function desliga(){
         $this->ligado = false;
     }
 
 
-    function status()
-    {
+    function status(){
         echo '<hr/>';
-        echo 'potencia: '. $this->potencia;
-        echo '<br/>velocidade maxima: '. $this->velMax;
+        echo 'potencia: ' . $this->potencia;
+        echo '<br/>velocidade maxima: ' . $this->velMax;
         echo '<br/>';
         if ($this->ligado) {
             echo 'este carro esta ligado';
         } else {
-            echo ' este carro esta desligado';
+            echo ' este carro nao esta ligado';
         }
         echo '<hr/>';
     }
     function acelera() {}
     function freia() {}
-    function atiraCanhao(){}
-    function atiraMetralhadora(){}
+    function atiraCanhao() {}
+    function atiraMetralhadora() {}
 }
 
-class Carro extends CarroBase {
+class Carro extends CarroBase
+{
     function Carro($pt, $vm){
-        $this->potencia=$pt;
-        $this->velMax=$vm;
+        $this->potencia = $pt;
+        $this->velMax = $vm;
 
         $this->status();
     }
 }
 
-$caroo = new Carro(150, 280);
+$carro = new Carro(150, 280);
 ?>
 
 <!DOCTYPE html>
