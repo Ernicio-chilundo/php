@@ -23,10 +23,18 @@
     }
 
     class Carro extends CarroBase{
-        function Cor(){
+        function Cor(){ 
             echo '<br/>Cor: '.$this->cor;
         }
     }
 
-    $car = new Carro();
+    class Transp extends CarroBase{
+        function Carro(){
+            echo '<hr/>';
+            $this->cor;
+        }
+    }
+
+    $car1 = new Carro("Amarelo");
+    $car2 = new Transp("Coral");
 ?>
