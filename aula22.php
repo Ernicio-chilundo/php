@@ -43,7 +43,7 @@ class Carro extends CarroBase
         $this->status();
     }
 }
-$c= new Carro(150, 280, 4);
+$carro=new Carro(150, 280, 4);
 ?>
 
 <!DOCTYPE html>
